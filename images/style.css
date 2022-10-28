@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-dark-gray: #48556a;
+  --clr-dark-blue: #6d7f97;
+  --clr-gray-blue: #9eafc2;
+  --clr-light-gray: #ecf2f8;
+}
+
+html {
+  font-size: 13px;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: var(--clr-gray-blue);
+}
+
+.card {
+  width: 30%;
+  margin: 2rem auto;
+  border: 2px solid #ffffff;
+  border-radius: 1rem;
+  background-color: var(--clr-light-gray);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-img {
+  width: 100.5%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.bold-title {
+  font-size: 1.5rem;
+  color: var(--clr-dark-gray);
+  margin: 10%;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  padding-right: 5%;
+}
+
+.lite-title {
+  font-size: 1.2rem;
+  color: var(--clr-gray-blue);
+  padding: auto;
+  padding-left: 10%;
+  padding-right: 15%;
+}
+
+.second-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10%;
+  justify-content: center;
+}
+
+.avatar-image {
+  width: 15%;
+  margin-top: 1.5rem;
+  border-radius: 50%;
+}
+
+.name-details {
+  font-size: 13px;
+  padding-top: 2rem;
+  padding-left: 1.4rem;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--clr-dark-gray);
+}
+
+.date {
+  color: var(--clr-gray-blue);
+}
+
+.share-icon {
+  padding-left: 2rem;
+}
